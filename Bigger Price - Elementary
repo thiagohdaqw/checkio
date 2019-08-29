@@ -1,0 +1,8 @@
+function biggerPrice(limit, data) {
+    let aux = []
+    data = data.sort((a,b) => b.price-.price)
+    for(let i=0; i<limit; i++){
+        aux.push(data[i])
+        }
+    return aux;
+}
