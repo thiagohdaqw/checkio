@@ -1,0 +1,8 @@
+function digitsMultip(data) {
+    let multi = 1;
+    for(let valor of data.toString()){
+        if(valor!=0){
+            multi *= Number(valor)
+    }}
+    return multi;
+}
