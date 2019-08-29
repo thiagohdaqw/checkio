@@ -1,0 +1,9 @@
+function median(data) {
+    data.sort(function(a, b){return a-b}); 
+    let tam = data.length
+    if(data.length%2==0){
+    return (data[tam/2]+data[(tam)/2-1])/2;
+    
+    }else
+    return data[(data.length-1)/2];
+}
